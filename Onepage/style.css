@@ -1,0 +1,82 @@
+body{
+}
+
+
+.home{
+    display: inline-block;
+    padding-right:50px;
+    background-color:black;
+    padding-top:8px;
+    padding-bottom:8px;
+    width:14.5%;
+
+
+
+}
+.work{
+    display: inline-block;
+    padding-right:50px;
+    background-color:black;
+    padding-top:8px;
+    padding-bottom:8px;
+    width:14.5%;
+
+
+
+
+
+}
+.about{
+    display: inline-block;
+    padding-right:50px;
+    background-color:black;
+    padding-top:8px;
+    padding-bottom:8px;
+
+
+
+}
+.home a{
+    color:white;
+}
+.work a{
+    color:white;
+}
+.about a {
+    color:white;
+}
+.column1{
+    float:left;
+    width:29%;
+    height: 800px;
+    background-color:grey;
+}
+.body2{
+    float:left;
+    width:70%;
+    height: 800px;
+    background-color:grey;
+    text-align: center;
+}
+.body2 img{
+    width:30%;
+    float:left;
+    height:350px;
+}
+.picture{
+    background-color:grey;
+    height:300px;
+    object-position: center;
+}
+.picture p{
+    text-align: left;
+}
+.picture img{
+    width:50%;
+    height:250px;
+    /* object-position: center; */
+    justify-content: center;
+}
+.stats h3{
+    text-align: center;
+}

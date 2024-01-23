@@ -1,0 +1,77 @@
+body{
+    background-color:#2B3C8D;
+    font-family: 'Red Hat Display';font-size: 24px;
+}
+h1{
+    color: white; 
+}
+h2{
+    color:white;
+}
+
+.topnav {
+    display:inline-flex;
+    align-items: flex-start;
+    background-color:#2B3C8D;
+    overflow: hidden;
+    font-weight:bold;
+}
+  /* Style the links inside the navigation bar */
+.topnav a {
+    display: flex;
+    width: 114px;
+    height: 32px;
+    padding-right: 30px;
+    align-items: center;
+    color:black;
+    text-decoration:none;
+}
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    /* background-color: #ddd; */
+    text-decoration: underline;
+}
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    /* background-color:white; */
+    color:black;
+}
+
+/* iPhone 15 Pro */
+#phone img{
+/* position: absolute; */
+width: 946px;
+height: 709px;
+left: 560.54px;
+top: 104.52px;
+
+background: url(.png);
+
+}
+/* Vector */
+/* #blob img{
+position: absolute;
+width: 677.16px;
+height: 1151.24px;
+left: 2078.41px;
+top: -256.51px;
+
+background: #E7E3E3;
+transform: rotate(95.56deg);
+
+} */
+.svg{
+    width: 677.16px;
+height: 1151.241px;
+transform: rotate(95.557deg);
+flex-shrink: 0;
+
+}
+
+
+
+
+
+
